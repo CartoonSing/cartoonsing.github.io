@@ -1,0 +1,59 @@
+{
+  "demo1": {
+    "target_timbre": "audio/demo1/instrumental_kising_tangerine_425_013_0ref.wav",
+    "svc_finetune": "audio/demo1/instrumental_kising_tangerine_425_013_cartoon_voice_svc_finetune350ksteps.wav",
+    "source": "audio/demo1/instrumental_kising_tangerine_425_013_0source.wav",
+    "samoye": "audio/demo1/instrumental_kising_tangerine_425_013_samoye.wav"
+  },
+  "demo2": {
+    "target_timbre": "audio/demo2/instrumental_kising_david_425_004_0ref.wav",
+    "baseline": "audio/demo2/instrumental_kising_david_425_004_svs_baseline_visinger.wav",
+    "svs_finetune": "audio/demo2/instrumental_kising_david_425_004_cartoon_voice_svs_finetune_instrumental.wav",
+    "svc_finetune": "audio/demo2/instrumental_kising_david_425_004_cartoon_voice_svc_finetune350ksteps.wav",
+    "source": "audio/demo2/instrumental_kising_david_425_004_0source.wav",
+    "samoye": "audio/demo2/instrumental_kising_david_425_004_samoye.wav"
+  },
+  "demo3": {
+    "target_timbre": "audio/demo3/instrumental_kising_crimson_425_013_0ref.wav",
+    "baseline": "audio/demo3/instrumental_kising_crimson_425_013_svs_baseline_visinger.wav",
+    "svs_finetune": "audio/demo3/instrumental_kising_crimson_425_013_cartoon_voice_svs_finetune_instrumental.wav"
+  },
+  "demo4": {
+    "target_timbre": "audio/demo4/instrumental_kising_tarara_434_026_0ref.wav",
+    "baseline": "audio/demo4/instrumental_kising_tarara_434_026_svs_baseline_visinger.wav",
+    "svs_finetune": "audio/demo4/instrumental_kising_tarara_434_026_cartoon_voice_svs_finetune_instrumental.wav",
+    "svc_finetune": "audio/demo4/instrumental_kising_tarara_434_026_cartoon_voice_svc_finetune350ksteps.wav",
+    "source": "audio/demo4/instrumental_kising_tarara_434_026_0source.wav",
+    "samoye": "audio/demo4/instrumental_kising_tarara_434_026_samoye.wav"
+  },
+  "demo5": {
+    "target_timbre": "audio/demo5/instrumental_kising_yunhao_434_018_0ref.wav",
+    "baseline": "audio/demo5/instrumental_kising_yunhao_434_018_svs_baseline_visinger.wav",
+    "svs_finetune": "audio/demo5/instrumental_kising_yunhao_434_018_cartoon_voice_svs_finetune_instrumental.wav",
+    "svc_finetune": "audio/demo5/instrumental_kising_yunhao_434_018_cartoon_voice_svc_finetune350ksteps.wav",
+    "source": "audio/demo5/instrumental_kising_yunhao_434_018_0source.wav",
+    "samoye": "audio/demo5/instrumental_kising_yunhao_434_018_samoye.wav"
+  },
+  "demo6": {
+    "target_timbre": "audio/demo6/instrumental_kising_wenli_425_058_0ref.wav",
+    "svc_finetune": "audio/demo6/instrumental_kising_wenli_425_058_cartoon_voice_svc_finetune350ksteps.wav",
+    "source": "audio/demo6/instrumental_kising_wenli_425_058_0source.wav",
+    "samoye": "audio/demo6/instrumental_kising_wenli_425_058_samoye.wav"
+  },
+  "demo7": {
+    "target_timbre": "audio/demo7/instrumental_kising_tarara_435_020_0ref.wav",
+    "baseline": "audio/demo7/instrumental_kising_tarara_435_020_svs_baseline_visinger.wav",
+    "svs_finetune": "audio/demo7/instrumental_kising_tarara_435_020_cartoon_voice_svs_finetune_instrumental.wav",
+    "svc_finetune": "audio/demo7/instrumental_kising_tarara_435_020_cartoon_voice_svc_finetune350ksteps.wav",
+    "source": "audio/demo7/instrumental_kising_tarara_435_020_0source.wav",
+    "samoye": "audio/demo7/instrumental_kising_tarara_435_020_samoye.wav"
+  },
+  "demo8": {
+    "target_timbre": "audio/demo8/instrumental_opencpop_2086003207_0ref.wav",
+    "baseline": "audio/demo8/instrumental_opencpop_2086003207_svs_baseline_visinger.wav",
+    "svs_finetune": "audio/demo8/instrumental_opencpop_2086003207_cartoon_voice_svs_finetune_instrumental.wav",
+    "svc_finetune": "audio/demo8/instrumental_opencpop_2086003207_cartoon_voice_svc_finetune350ksteps.wav",
+    "source": "audio/demo8/instrumental_opencpop_2086003207_0source.wav",
+    "samoye": "audio/demo8/instrumental_opencpop_2086003207_samoye.wav"
+  }
+}

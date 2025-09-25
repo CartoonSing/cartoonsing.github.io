@@ -1,0 +1,352 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    background: #ffffff;
+    min-height: 100vh;
+}
+
+#page-wrap {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* 头部样式 */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #555;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paper-info {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.authors {
+    color: #222;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.abstract {
+    color: #222;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+/* 介绍部分样式 */
+.introduction {
+    margin-bottom: 50px;
+}
+
+.introduction h2 {
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#introduction-content {
+    background: #ffffff;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+#introduction-content h3 {
+    font-size: 20px;
+    font-weight: 350;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* 音频演示部分样式 */
+.audio-demos h2 {
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#audio-grid {
+    margin-bottom: 30px;
+}
+
+/* 表格样式 - 模仿MusicGen */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #333333;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 auto 24px auto;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.desc {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* 独立模块方框样式 */
+.section-box {
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 让模块突破父容器宽度限制，占满视口宽度 */
+.full-bleed {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* full-bleed 内部表格居中且尽量铺满 */
+.full-bleed .module-table {
+    width: 100%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.module-title { display: block; }
+
+.module-table thead th,
+.module-table thead td {
+    background: #f8f9fa;
+}
+
+/* 表格延展填满空间且居中 */
+.module-table {
+    width: 100%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.module-table td,
+.module-table th {
+    text-align: center;
+    word-break: break-word;
+}
+
+/* 让描述列可以换行而不撑开布局 */
+.module-table .desc {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* 响应式设计 */
+@media (min-width: 1000px) {
+    .sample_audio {
+        width: 200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #page-wrap {
+        max-width: 1400px;
+    }
+    
+    .sample_audio {
+        width: 200px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #page-wrap {
+        max-width: 1600px;
+    }
+}
+
+@media (max-width: 768px) {
+    #page-wrap {
+        padding: 0 10px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 28px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .sample_audio {
+        width: 150px;
+    }
+    
+    .desc {
+        max-width: 200px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sample_audio {
+        width: 120px;
+    }
+    
+    .desc {
+        max-width: 150px;
+        font-size: 11px;
+    }
+    
+    .table th,
+    .table td {
+        padding: 4px;
+    }
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #999;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+/* 加载动画 */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #729ea5;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 额外的样式类 */
+.sample_audio {
+    width: 100px;
+}
+
+.long_audio {
+    width: 500px;
+}
+
+.desc {
+    max-width: 300px;
+}
+
+.demos {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.demos .caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-top {
+    margin-top: 3px;
+}
+
+.margin-bottom {
+    margin-bottom: 3px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+b {
+    font-weight: 700;
+}
